@@ -1,3 +1,6 @@
+
+-----------------------------------------------------------------------
+
 # Atamishky
 
 **Atamishky** es el nombre con el que bautizamos a nuestro sistema de búsquedas y referencias bibliográficas.
