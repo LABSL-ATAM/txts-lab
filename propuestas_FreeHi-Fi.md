@@ -3,16 +3,20 @@
 Tiene que tener esto:
 
 * Nombre de la propuesta: 
-Sistemas Libres para grabacion y proceso de Audio Hi-Fi. 
+  
+  **Sistemas Libres para grabacion y proceso de Audio Hi-Fi.**
 
 * Palabras clave.
-Open Architecture, Hi-Fi Audio, Grabación, C.L.I., 
+
+  *Open Architecture, Hi-Fi Audio, Grabación, C.L.I.*
 
 * Cantidad y tipo de encuentros.
-Multiples encuentros con diseñadores de harwdare especifico para el registro y emision de  audio Hi-Fi.   
+
+  Multiples encuentros con diseñadores de harwdare especifico para el registro y emision de  audio Hi-Fi.   
 
 * Descripción de los encuentros.
-Pruebas del hardware en diferentes placas y Sistemas Operativos. 
+
+  Pruebas del hardware en diferentes placas y Sistemas Operativos. 
 
 * Propuesta de actividades creativas.
 
