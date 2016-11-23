@@ -6,6 +6,7 @@
   <meta name="generator" content="pandoc" />
   <title></title>
   <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="nah.css" type="text/css" />
 </head>
 <body>
 <span>Documentación de Atamishky (LABSL/ATAM)</span>
@@ -20,6 +21,16 @@
 <li><a href="#sobre-la-tecnología-involucrada-notas-para-administradores">Sobre la tecnología involucrada (notas para administradores)</a><ul>
 <li><a href="#instalación">Instalación</a></li>
 <li><a href="#backend">Backend</a></li>
+<li><a href="#conversión-del-catálogo-a-xml-atamishkycsv2xml.pl">Conversión del catálogo a XML: atamishkyCSV2XML.pl</a><ul>
+<li><a href="#forma-de-uso">Forma de uso</a></li>
+</ul></li>
+<li><a href="#notas-sobre-la-estructura-del-catálogo">Notas sobre la estructura del catálogo</a><ul>
+<li><a href="#archivo-en-la-entrada">Archivo en la entrada</a></li>
+<li><a href="#tipos">Tipos</a></li>
+<li><a href="#autores">Autores</a></li>
+<li><a href="#valores-vacios">valores vacios</a></li>
+<li><a href="#soporte">Soporte</a></li>
+</ul></li>
 <li><a href="#cómo-realizo-la-conversión-del-catálogo-para-ser-levantado-por-atamishky">¿Cómo realizo la conversión del catálogo para ser levantado por Atamishky?</a></li>
 <li><a href="#cómo-realizo-los-hashs-de-verificación-de-los-archivos-xslt">¿Cómo realizo los hashs de verificación de los archivos xslt?</a></li>
 <li><a href="#cómo-cambio-la-contraseña-de-los-préstamos">¿Cómo cambio la contraseña de los préstamos?</a></li>
@@ -41,6 +52,7 @@
 </ul></li>
 </ul>
 </div>
+<hr />
 <h1 id="atamishky">Atamishky</h1>
 <p><strong>Atamishky</strong> es el nombre con el que bautizamos a nuestro sistema de búsquedas y referencias bibliográficas.</p>
 <h2 id="cuál-es-su-finalidad">¿Cuál es su finalidad?</h2>
@@ -53,16 +65,83 @@
 <h2 id="características">Características</h2>
 <p>Brevemente, estas son las características principales de Atamishky:</p>
 <ul>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li>Es Software Libre (y gratuito).</li>
+<li>Programado con tecnologías abiertas y estándares (php, perl).</li>
+<li>Flexible, seguro y fácilmente extensible.</li>
+<li>Búsqueda rápida, resultados visibles.</li>
+<li>Búsqueda dinámica (por editorial, año, lugar, etc.).</li>
+<li>Manejo de préstamos del material bibliográfico.</li>
+<li>Criterios dinámicos de filtrado.</li>
+<li>Enlaces, etiquetas y criterios de agrupamiento bibliográfico.</li>
+<li>Manejo de distintos tipos de materiales.</li>
+<li>El catálogo puede ser actualizado desde un CSV (que puede ser creado mediante Excel o LibreOffice).</li>
+<li>Manejo intuitivo de la interfaz.</li>
+<li>Soporta normas APA e ISO; exporta a BibTex.</li>
+<li>Implementa feeds RSS.</li>
+<li>Crea permalinks a la entrada, que pueden ser compartidos por mail, Facebook y Twitter.</li>
 </ul>
 <hr />
 <h1 id="sobre-la-tecnología-involucrada-notas-para-administradores">Sobre la tecnología involucrada (notas para administradores)</h1>
 <h2 id="instalación">Instalación</h2>
 <h2 id="backend">Backend</h2>
+<p>Atamishky requiere un servidor web que soporte php (versión 5 y más modernas) y la extensión XSL.</p>
+<p>Por ejemplo, instalarla en Debian requiere este comando:</p>
+<pre><code>sudo apt-get install php5-xsl</code></pre>
+<h2 id="conversión-del-catálogo-a-xml-atamishkycsv2xml.pl">Conversión del catálogo a XML: atamishkyCSV2XML.pl</h2>
+<p>El script <strong>atamishky_CSV2XML.pl</strong> es el encargado de <strong>convertir el catálogo CSV en XML</strong>: genera XML válido para utilizarlo como catálogo o índice de la bibliografía de Atamishky.</p>
+<p>Requiere los siguientes módulos adicionales para Perl:</p>
+<ul>
+<li>File::Slurp</li>
+<li>Text::Capitalize</li>
+<li>Text::Language::Guess</li>
+<li>List::MoreUtils</li>
+</ul>
+<p>Se pueden instalar con cpan, o -recomendado- con cpanplus de la siguiente forma:</p>
+<pre><code>cpanp i File::Slurp Text::Capitalize Text::Language::Guess List::MoreUtils</code></pre>
+<h3 id="forma-de-uso">Forma de uso</h3>
+<p>El programa requiere un archivo en la entrada (o input), como mínimo argumento.</p>
+<ul>
+<li><strong>c</strong> Salida compacta : sin saltos de linea, ni espacios.</li>
+<li><strong>f</strong> Archivo input : Ver debajo sobre el formato (csv).</li>
+<li><strong>o</strong> Archivo Output : Opcional, por defecto STDOUT.</li>
+<li><strong>t</strong> Archivo txt: genera “catalogo.txt” desde el csv.</li>
+</ul>
+<hr />
+<h2 id="notas-sobre-la-estructura-del-catálogo">Notas sobre la estructura del catálogo</h2>
+<h3 id="archivo-en-la-entrada">Archivo en la entrada</h3>
+<p>El archivo csv tiene que respetar en su encabezado, el siguiente orden:</p>
+<ul>
+<li>tipo</li>
+<li>titulo</li>
+<li>autores</li>
+<li>editorial</li>
+<li>año</li>
+<li>ciudad</li>
+<li>bibliografia</li>
+<li>link</li>
+<li>soporte</li>
+<li>descripcion</li>
+<li>idioma</li>
+<li>paginas-capitulos.</li>
+</ul>
+<p>Los valores en todo el csv se separan con la pipa |.</p>
+<h3 id="tipos">Tipos</h3>
+<p>Los tipos posibles son (por ahora):</p>
+<ul>
+<li>musica</li>
+<li>video</li>
+<li>book</li>
+<li>misc</li>
+</ul>
+<h3 id="autores">Autores</h3>
+<p>Si la entrada tiene mas de un autor, separar con punto y coma.</p>
+<p>No poner “y” al final, la plantilla se encarga de eso.</p>
+<h3 id="valores-vacios">valores vacios</h3>
+<p>Si no hay bibliografia o link que poner, no poner nada.</p>
+<h3 id="soporte">Soporte</h3>
+<p>El campo soporte solo tiene sentido (por el momento) si el tipo de entrada es igual a video.</p>
+<p>*Nota: Nuestra mediateca tiene videos cuyo soporte es VHS, junto con DVDs.__*</p>
+<hr />
 <h2 id="cómo-realizo-la-conversión-del-catálogo-para-ser-levantado-por-atamishky">¿Cómo realizo la conversión del catálogo para ser levantado por Atamishky?</h2>
 <h2 id="cómo-realizo-los-hashs-de-verificación-de-los-archivos-xslt">¿Cómo realizo los hashs de verificación de los archivos xslt?</h2>
 <h2 id="cómo-cambio-la-contraseña-de-los-préstamos">¿Cómo cambio la contraseña de los préstamos?</h2>

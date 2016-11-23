@@ -23,11 +23,20 @@ Se basó en BeBop, un sistema de búsqueda con backend Java/BibTeX del cual toda
 
 Brevemente, estas son las características principales de Atamishky:
 
--
--
--
--
--
+- Es Software Libre (y gratuito).
+- Programado con tecnologías abiertas y estándares (php, perl).
+- Flexible, seguro y fácilmente extensible.
+- Búsqueda rápida, resultados visibles.
+- Búsqueda dinámica (por editorial, año, lugar, etc.).
+- Manejo de préstamos del material bibliográfico.
+- Criterios dinámicos de filtrado.
+- Enlaces, etiquetas y criterios de agrupamiento bibliográfico.
+- Manejo de distintos tipos de materiales.
+- El catálogo puede ser actualizado desde un CSV (que puede ser creado mediante Excel o LibreOffice).
+- Manejo intuitivo de la interfaz.
+- Soporta normas APA e ISO; exporta a BibTex.
+- Implementa feeds RSS.
+- Crea permalinks a la entrada, que pueden ser compartidos por mail, Facebook y Twitter.
 
 
 
@@ -38,6 +47,89 @@ Brevemente, estas son las características principales de Atamishky:
 ## Instalación
 
 ## Backend
+
+Atamishky requiere un servidor web que soporte php (versión 5 y más modernas) y la extensión XSL.
+
+Por ejemplo, instalarla en Debian requiere este comando:
+
+```
+sudo apt-get install php5-xsl
+```
+## Conversión del catálogo a XML: atamishkyCSV2XML.pl
+
+El script **atamishky_CSV2XML.pl** es el encargado de **convertir el catálogo
+CSV en XML**: genera XML válido para utilizarlo como  catálogo o índice de la bibliografía de Atamishky.
+
+Requiere los siguientes módulos adicionales para Perl:
+
+* File::Slurp
+* Text::Capitalize
+* Text::Language::Guess
+* List::MoreUtils
+
+Se pueden instalar con cpan, o -recomendado- con cpanplus de la siguiente forma:
+
+```
+cpanp i File::Slurp Text::Capitalize Text::Language::Guess List::MoreUtils
+```
+### Forma de uso
+
+El programa requiere un archivo en la entrada (o input), como mínimo argumento.
+
+- **c** Salida compacta : sin saltos de linea, ni espacios.
+- **f** Archivo input : Ver debajo sobre el formato (csv).
+- **o** Archivo Output : Opcional, por defecto STDOUT.
+- **t** Archivo txt: genera "catalogo.txt" desde el csv.
+
+-----------------------------------------------------------------------
+
+## Notas sobre la estructura del catálogo
+
+### Archivo en la entrada
+
+El archivo csv tiene que respetar en su encabezado, el siguiente orden:
+
+- tipo 
+- titulo 
+- autores 
+- editorial 
+- año 
+- ciudad 
+- bibliografia 
+- link
+- soporte 
+- descripcion 
+- idioma 
+- paginas-capitulos.
+
+Los valores en todo el csv se separan con la pipa |.
+
+### Tipos
+
+Los tipos posibles son (por ahora):
+
+- musica 
+- video 
+- book 
+- misc
+
+### Autores
+
+Si la entrada tiene mas de un autor, separar con punto y coma.
+
+No poner "y" al final, la plantilla se encarga de eso.
+
+### valores vacios
+
+Si no hay bibliografia o link que poner, no poner nada.
+
+### Soporte
+
+El campo soporte solo tiene sentido (por el momento) si el tipo de entrada es igual a video.
+
+*Nota: Nuestra mediateca tiene videos cuyo soporte es VHS, junto con DVDs.__*
+
+-----------------------------------------------------------------------
 
 ## ¿Cómo realizo la conversión del catálogo para ser levantado por Atamishky?
 

@@ -1,10 +1,10 @@
 all: clean docu view
 
 docu: 
-	pandoc -s -S --toc ayuda.md -B header.html -A footer.html -o DOCUMENTACION.html
+	pandoc -s -S --toc ayuda.md -B header.html -A footer.html -c nah.css -o DOCUMENTACION.html
 
 clean: 
 	rm DOCUMENTACION.html
 
 view:
-	opera DOCUMENTACION.html
+	firefox DOCUMENTACION.html
