@@ -1,0 +1,84 @@
+=Descripción= 
+Encuesta para sensibilizar a usuarios de todo tipo (estudiantes de la uco, jóvenes de fuera de la uco, personas, colectivos, etc.) sobre el uso del Software Libre y para recoger información que analizaremos y nos servirá para futuras acciones del Aula.
+
+
+=Lista de ideas para esta actividad=
+
+* Hacer un cuestionario con preguntas
+
+= Primer borrador con las preguntas=
+Es un borrador inicial...
+
+* ¿Te gustaría tener más información sobre cómo usar Software Libre en tu ordenador?
+* ¿Te gustaría que te diéramos una charla a ti y al grupo de amigos que desees sobre cómo podéis usar Software Libre fácil y gratuitamente?
+* Si participas en una asociación o en una ONG, ¿te gustaría que fuéramos a hablaros de como podéis usar Software Libre fácil y totalmente gratis?
+* ¿Y en tu trabajo?, ¿te gustaría saber más de cómo usar Software Libre en tu trabajo, en tu empresa, etc.?
+* ¿Sabías que todos los programas que utilizas en tu ordenador tienen equivalentes en Software Libre?
+* ¿Sabes a qué se refiere la palabra "Libre" del término "Software Libre"?
+* ¿Sabías que el Software Libre, además es gratuito?
+* ¿Sabes que con el sistema operativo GNU/Linux puedes usar tu ordenador de forma equivalente a como lo haces en el sistema operativo de las multinacionales Microsoft o Apple?
+* ¿Sabes que el sistema operativo GNU/Linux es potente, fácil de usar, seguro y gratuito?
+* ¿Sabes lo que es OpenOffice?
+* ¿sabes que el software libre se hace de forma colaborativa y transparente, y está disponible para todos gratuitamente y sin restricciones?
+
+otro borrador para tener en cuenta...Luego habrá que seleccionar cuáles van y en qué orden
+
+* ¿Sabes que muchos programas de tu ordenador pueden espiarte y no tienes forma de saberlo?
+* ¿Sabías que la licencia del editor de Webs de Microsoft prohíbe que el usuario cree una web hablando mal de Microsof?
+* ¿Sabías que si has nacido o has residido en Cuba, Iraq y otros países del mundo no podrías usar muchos de los programas que tienes en tu ordenador?
+* ¿Sabes que el movimiento del software libre que lucha/trabaja contra estas y otras restricciones?
+* Si contestaste que no, ¿te interesaría saber más sobre este movimiento?
+* ¿Sabes que hay muchas alternativas libres a los programas que usas?
+* ¿Sabías que el navegador Firefox es software libre?
+
+= Propuestas de Pedro Navajas =
+Algunas preguntas que creo que no se han puesto:
+* ¿Sabes qué es el software libre?
+* ¿Sabes qué es la brecha digital?
+* ¿Sabes que es la neutralidad de la red?
+Yo quitaría lo de que el software libre es gratuito porque no siempre es así.
+Además, si vamos a tener alguna actividad sobre contenido artístico libre, tal vez vendrían bien algunas preguntas del tipo
+* ¿Sabes lo que son las licencias Creative Commons?
+* ¿Podrías indicarme 3 actividades que haya realizado la SGAE para fomentar la cultura?
+* ¿Y dos actividades?
+* ¿Y una? ¿Nada? ¿Sabes a que se dedica la SGAE además de acumular fondos?
+* ¿Crees que la cultura debe ser accesible?
+
+----
+----
+
+
+= Preguntas para votar =
+* 1) ¿Te gustaría tener más información sobre cómo usar Software Libre en tu ordenador?
+* 2) ¿Te gustaría que te diéramos una charla a ti y al grupo de amigos que desees sobre cómo podéis usar Software Libre fácil y gratuitamente?
+* 3) Si participas en una asociación o en una ONG, ¿te gustaría que fuéramos a hablaros de como podéis usar Software Libre fácil y totalmente gratis?
+* 4) ¿Y en tu trabajo?, ¿te gustaría saber más de cómo usar Software Libre en tu trabajo, en tu empresa, etc.?
+* 5) ¿Sabías que todos los programas que utilizas en tu ordenador tienen equivalentes en Software Libre?
+* 6) ¿Sabes a qué se refiere la palabra "Libre" del término "Software Libre"?
+* 7) ¿Sabías que la mayoría del Software Libre, además es gratuito?
+* 8) ¿Sabes que con el sistema operativo GNU/Linux puedes usar tu ordenador de forma equivalente a como lo haces en el sistema operativo de las multinacionales Microsoft o Apple?
+* 9) ¿Sabes que el sistema operativo GNU/Linux es potente, fácil de usar, seguro y gratuito?
+* 10) ¿Sabes lo que es OpenOffice?
+* 11) ¿sabes que el software libre se hace de forma colaborativa y transparente, y está disponible para todos gratuitamente y sin restricciones?
+* 12) ¿Sabes que muchos programas de tu ordenador pueden espiarte y no tienes forma de saberlo?
+* 13 ¿Sabías que la licencia del editor de Webs de Microsoft prohíbe que el usuario cree una web hablando mal de Microsof?
+* 14 ¿Sabías que si has nacido o has residido en Cuba, Iraq y otros países del mundo no podrías usar muchos de los programas que tienes en tu ordenador?
+* 15) ¿Sabes que el movimiento del software libre que lucha/trabaja contra estas y otras restricciones?
+* 16 Si contestaste que no, ¿te interesaría saber más sobre este movimiento?
+* 17 ¿Sabes que hay muchas alternativas libres a los programas que usas?
+* 18 ¿Sabías que el navegador Firefox es software libre?
+* 19) ¿Sabes qué es el software libre?
+* 20) ¿Sabes qué es la brecha digital?
+* 21) ¿Sabes que es la neutralidad de la red?
+* 22) ¿Sabes lo que son las licencias Creative Commons?
+
+
+* ¿Te gustaría tener más información sobre cómo usar Software Libre en tu ordenador, empresa u organización? Si es así indícanos una dirección de correo electrónico y/o teléfono para contactar contigo.
+* ¿Sabes en qué consiste el Software Libre?
+* ¿Sabes que el software libre se hace de forma colaborativa y transparente, y está disponible para todos gratuitamente y sin restricciones?
+* ¿Sabes lo que son las licencias Creative Commons?
+* ¿Sabías que con el sistema operativo GNU/Linux puedes usar tu ordenador de forma equivalente a como lo haces en el sistema operativo de las multinacionales Microsoft o Apple?
+* ¿Sabías que el sistema operativo GNU/Linux es potente, fácil de usar, seguro y gratuito?
+* ¿Sabías que el navegador Firefox es software libre?
+* ¿Sabías que hay muchas alternativas libres a los programas que usas?
+* ¿Sabías que la mayoría del Software Libre además es gratuito?
