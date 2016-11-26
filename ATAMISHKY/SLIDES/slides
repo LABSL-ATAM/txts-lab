@@ -10,12 +10,12 @@
 
 - Laboratorio de Software Libre
 
-# ![logo](/logo-lab.png)
+# ![logo](/img/logo-lab.png)
 
 - Gustavo Yzaguirre
 - Lisandro Fernández
 
-# Con la ayuda de...
+# Con mucha ayuda de...
 
 - Juan Martín Viera
 - Mediateca
@@ -26,9 +26,10 @@
 - Necesidad de presencia online
 - El software de escritorio __no es suficiente__
 - Un pdf __no es suficiente__
+- Subir nuestro catálogo a un sistema ajeno __no es suficiente__
 - Tarde para adoptar alguna herramienta prexistente
 - Pobre compatibilidad entre distintos softwares encargados de la tarea
-- Dificultad de adaptar nuestro catálogo a otros formatos prácticos
+- Escollo de adaptar nuestro catálogo a otros formatos prácticos
 
 
 # Idea
@@ -39,6 +40,13 @@
 - Ofrecer una herramienta **amigable a los bibliotecarios**
 - Ofrecer una herramienta **amigable a los usuarios**
 
+
+---------------------------
+
+_Creemos que **no es solamente nuestro problema**..._
+
+-------------------------
+
 # Solución
 
 - Implementar una herramienta que posibilite la búsqueda de material
@@ -46,6 +54,11 @@
 - Programarla utilizando **estándares libres**
 - Programarla para resultar fácil, intuitiva...
 
+---------------------------
+
+_Una **herramienta de búsqueda online** parecía ser la respuesta..._
+
+-------------------------
 
 # Trabajo
 
@@ -70,9 +83,9 @@ _El nombre sale de ATAM y una chacarera de Leo Dan..._
 
 # Puntualmente 
 
-- Es un sistema **web** de **búsqueda** de material bibliográfico.
+- Es un sistema **web** de **búsqueda** y **gestión** de material bibliográfico.
 
-- Como **koha**, **greenstone** y **SIU Biblioteca**, pero...
+- Como **[koha](https://koha-community.org)**, **[greenstone](http://www.greenstone.org)** y **[SIU Biblioteca](http://bsd.siu.edu.ar/prod/index.php)**, pero...
 
 # NUESTRO
 
@@ -88,7 +101,7 @@ _El nombre sale de ATAM y una chacarera de Leo Dan..._
 
 
 
-#![meme](/sospecha.png)
+#![meme](/img/sospecha.png)
 - PRUEBAS!
 
 
@@ -101,6 +114,10 @@ _El nombre sale de ATAM y una chacarera de Leo Dan..._
     - taxonómica
 
 
+#![busq](/img/busqueda.png)
+
+#![criterios](/img/criterios.png)
+
 ------------
 
 - Filtrado por criterios de selección
@@ -108,6 +125,9 @@ _El nombre sale de ATAM y una chacarera de Leo Dan..._
     - tags
     - grupos
 
+#![autores](/img/autores.png)
+#![bib](/img/bibliografias.png)
+#![tags](/img/nubetags.png)
 
 ------------
 
@@ -115,6 +135,9 @@ _El nombre sale de ATAM y una chacarera de Leo Dan..._
     - distintos tipos de material
     - préstamos
 
+
+#![libro](/img/entrada.png)
+#![prestamos](/img/prestamos.png)
 
 ------------
 
@@ -124,6 +147,8 @@ _El nombre sale de ATAM y una chacarera de Leo Dan..._
     - BibTex
 
 
+#![apa](/img/APA_Compartir.png)
+
 ------------
 
 - Presencia online
@@ -132,6 +157,14 @@ _El nombre sale de ATAM y una chacarera de Leo Dan..._
     - Facebook
     - Twitter
     - mail
+
+#![social](/img/social.jpg)
+
+------------
+
+#![cool](/img/cool.png)
+
+- Muy lindo pero...
 
 ------------
 
@@ -157,7 +190,7 @@ _El nombre sale de ATAM y una chacarera de Leo Dan..._
 
 # Ahora mismo
 
-- Es uno de los proyectos de Laboratorio de Software Libre
+- Es uno de los proyectos del Laboratorio de Software Libre
 - Atamishky está en constante desarrollo y revisión
 - y...
 
@@ -169,12 +202,15 @@ _El nombre sale de ATAM y una chacarera de Leo Dan..._
 
 # Gracias!
 
-- Gustavo Yzaguirre et al, 2016.
-![una](/una.jpg)
+![una](/img/una.jpg)
+![logo](/img/logo-lab.png)
+
 
 # Enlaces
 
 - [Catálogo online de la Mediateca](https://mediateca.atamvirtual.com.ar).
 - [Página del Laboratorio de Software Libre](https://labsl.multimediales.com.ar).
 - [Repositorio oficial en Github](https://github.com/LABSL-ATAM).
+- [Repositorio oficial Atamishky Github](https://github.com/LABSL-ATAM/atamishky).
 - [Correo del LABSL](mailto:labsl@cpamvirtual.com.ar).
+
