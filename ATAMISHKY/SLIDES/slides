@@ -1,18 +1,180 @@
-% Eating Habits
-% John Doe
-% March 22, 2005
+% Atamishky: presentación
+% Noviembre 2016
+% ATAM
 
-# In the morning
+# Introducción
 
-- Eat eggs
-- Drink coffee
+- Sean todos bienvenidos...
 
-# In the evening
+# ¿Quiénes Somos?
 
-- Eat spaghetti
-- Drink wine
+- Laboratorio de Software Libre
 
-# Conclusion
+# ![logo](/logo-lab.png)
 
-- And the answer is...
-- $f(x)=\sum_{n=0}^\infty\frac{f^{(n)}(a)}{n!}(x-a)^n$   
+- Gustavo Yzaguirre
+- Lisandro Fernández
+
+# Con la ayuda de...
+
+- Juan Martín Viera
+- Mediateca
+
+
+# Problema
+
+- Necesidad de presencia online
+- El software de escritorio __no es suficiente__
+- Un pdf __no es suficiente__
+- Tarde para adoptar alguna herramienta prexistente
+- Pobre compatibilidad entre distintos softwares encargados de la tarea
+- Dificultad de adaptar nuestro catálogo a otros formatos prácticos
+
+
+# Idea
+
+- Ofrecer el catálogo de nuestra **Mediateca** online
+- Independientemente de sistemas operativos y dispositivos
+- Un **sistema de búsqueda** para nuestra comunidad
+- Ofrecer una herramienta **amigable a los bibliotecarios**
+- Ofrecer una herramienta **amigable a los usuarios**
+
+# Solución
+
+- Implementar una herramienta que posibilite la búsqueda de material
+- Moldearla a las necesidades de nuestro Área y nuestra Mediateca
+- Programarla utilizando **estándares libres**
+- Programarla para resultar fácil, intuitiva...
+
+
+# Trabajo
+
+- Diseñar, programar, corregir, probar...
+- Consultar con el Coordinador de la Mediateca **cómo mejorarla**
+- Programar, corregir, probar...
+
+# Resultado
+
+- Nació **Atamishky**
+
+------------
+
+_El nombre sale de ATAM y una chacarera de Leo Dan..._
+
+
+
+# ¿Qué es Atamishky?
+
+- No es una biblioteca digital **sino**...
+- Una herramienta de **gestión de bibliotecas digitales**
+
+# Puntualmente 
+
+- Es un sistema **web** de **búsqueda** de material bibliográfico.
+
+- Como **koha**, **greenstone** y **SIU Biblioteca**, pero...
+
+# NUESTRO
+
+- Desarrollado acorde a nuestras necesidades
+    - Presencia online
+    - Fácil de administrar
+    - Fácil de utilizar
+    - Catálogo offline
+    - Catálogo fácil de administrar
+    - Liviano (recursos del servidor)
+
+
+
+
+
+#![meme](/sospecha.png)
+- PRUEBAS!
+
+
+# Características
+
+
+- Búsqueda 
+    - estándar
+    - dinámica
+    - taxonómica
+
+
+------------
+
+- Filtrado por criterios de selección
+    - criterios de selección
+    - tags
+    - grupos
+
+
+------------
+
+- Gestión de 
+    - distintos tipos de material
+    - préstamos
+
+
+------------
+
+- Asistencia bibliográfica
+    - ISO
+    - APA
+    - BibTex
+
+
+------------
+
+- Presencia online
+    - Permalinks
+    - RSS
+    - Facebook
+    - Twitter
+    - mail
+
+------------
+
+
+# ¿Dónde está el catálogo?
+
+- En una **hoja de cálculo!**
+    - El catálogo se convierte desde un archivo CSV
+    - Se puede actualizar fácilmente
+    - Se puede exportar a otros formatos
+
+
+
+# Además...
+
+- Libre (código abierto y gratuito)
+    - Se puede ver, bajar, contribuir por acá.
+- Extensible
+    - Ya tenemos plugins desarrollados, se pueden ver por acá.
+- Configurable
+    - Cambiando muy poco se puede adaptar a más tipos de material bibliográfico y ctiterios de filtrado.
+- Desarrollado _acá mismo_ y
+
+# Ahora mismo
+
+- Es uno de los proyectos de Laboratorio de Software Libre
+- Atamishky está en constante desarrollo y revisión
+- y...
+
+# Nos interesa su aporte!
+
+- Ideas,
+- Sugerencias o
+- Preguntas
+
+# Gracias!
+
+- Gustavo Yzaguirre et al, 2016.
+![una](/una.jpg)
+
+# Enlaces
+
+- [Catálogo online de la Mediateca](https://mediateca.atamvirtual.com.ar).
+- [Página del Laboratorio de Software Libre](https://labsl.multimediales.com.ar).
+- [Repositorio oficial en Github](https://github.com/LABSL-ATAM).
+- [Correo del LABSL](mailto:labsl@cpamvirtual.com.ar).

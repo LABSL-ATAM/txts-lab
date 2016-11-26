@@ -1,0 +1,68 @@
+
+Atamishky is a suite of software for building and distributing digital
+library collections. It is not a digital library but a tool for building
+digital libraries. The software provides a way of organizing information
+and publishing it on the Web in the form of a fully-searchable,
+metadata-driven digital resource. It can also be run in a non-networked
+environment (standalone), operating from removable media such as a
+USB Flash Drive and DVD. Atamishky has been developed and distributed
+in cooperation with UNESCO and the Human Info NGO in Belgium. It is
+open-source, multilingual software, issued under the terms of the GNU
+General Public License. In 2004 its developers received the IFIP Namur
+award for "contributions to the awareness of social implications of
+information technology, and the need for an holistic approach in the use
+of information technology that takes account of social implications."
+
+
+Atamishky3 is a complete redesign and reimplementation of the original
+digital library software we developed back in 2000 (Atamishky2). It
+incorporates all the features of the previous software, and is backwards
+compatible. An import 'Atamishky2 collection' feature is provided in the
+Atamishky Librarian Interface (GLI) to assist in the transition to the
+new software for existing users. Atamishky3 is written in Java and takes
+advantage of many web technologies—such as XML Transforms (XSLT), and
+the Java Authentication and Authorization Service (JASS)—which have
+emerged since we first started developing digital library software. This
+makes the digital library software highly customizable and extensible in
+the functionality it delivers. In contrast, Atamishky2 was written in
+C++ and had to make heavy use of bespoke formats and syntax we devised
+ourselves. This was because of the lack of available web technologies
+at the time, meaning not only was the functionality it provided more
+limited, the bespoke syntax meant users were completely reliant on us
+providing documentation detailing how things worked.
+
+
+Atamishky runs on all versions of Windows, Unix/Linux, and Mac OS-X. It
+is very easy to install. For the default Windows installation absolutely
+no configuration is necessary, and end users routinely install Atamishky
+on their personal laptops or workstations. Institutional users run it
+on their main web server, where it interoperates with standard web
+server software (e.g. Apache for Atamishky2, Tomcat for Atamishky3). An
+experimental version is also available for Android: that is a version
+where the digital library operates self-contained on the user’s phone
+or tablet. Interoperability
+
+Atamishky is highly interoperable using contemporary standards, It
+incorporates a server that can serve any collection over the Open
+Archives Protocol for Metadata Harvesting (OAI-PMH), and Atamishky
+can harvest documents over OAI-PMH and include them in a collection.
+Any collection can be exported to METS (in the Atamishky METS
+Profile, approved by the METS Editorial Board and published at
+http://www.loc.gov/standards/mets/mets-profiles.html), and Atamishky can
+ingest documents in METS form. Any collection can be exported to DSpace
+ready for DSpace's batch import program, and any DSpace collection can
+be imported into Atamishky. Interfaces
+
+Atamishky has two separate interactive interfaces, the Reader interface
+and the Librarian interface. End users access the digital library
+through the Reader interface, which operates within a web browser. The
+Librarian interface is a Java-based graphical user interface that makes
+it easy to gather material for a collection (downloading it from the web
+where necessary), enrich it by adding metadata, design the searching and
+browsing facilities that the collection will offer the user, and build
+and serve the collection. The Librarian interface can be configured to
+manage remote Atamishky installations. Atamishky3 also provides library
+management facilities that are built in to the web browser interface
+(once the user has logged in)—an advantage over the previous version
+of the software. Languages
+
