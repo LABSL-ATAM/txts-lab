@@ -38,11 +38,17 @@ Brevemente, estas son las características principales de Atamishky:
 - Implementa feeds RSS.
 - Crea permalinks a la entrada, que pueden ser compartidos por mail, Facebook y Twitter.
 
-
+Atamishky no es una biblioteca digital, sino un software que **posibilita la
+implementación de bibliotecas digitales**.
 
 -----------------------------------------------------------------------
 
 # Sobre la tecnología involucrada (notas para administradores)
+
+Atamishky está basado en tecnologías libres y estandarizadas.
+
+El frontend y gran parte del backend es ajax y el script de conversión del
+catálogo está programado en Perl.
 
 ## Instalación
 
@@ -84,6 +90,16 @@ El programa requiere un archivo en la entrada (o input), como mínimo argumento.
 -----------------------------------------------------------------------
 
 ## Notas sobre la estructura del catálogo
+
+La idea de utilizar una planilla de cálculo para estructurar la taxonomía del
+catálogo o inventario, tiene como propósito facilitar la tarea de mantenimiento,
+actualización y gestión del mismo por parte de los coordinadores.
+
+La estructura es bastante transparente y únicamente pretende reflejar e
+implementar la información necesaria en la forma más **práctica** posible.
+
+Alcanza con poner la información en columnas de una hoja de cálculo y exportarlo
+a CSV cuando sea necesario.
 
 ### Archivo en la entrada
 
