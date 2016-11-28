@@ -1,18 +1,17 @@
-# Sistemas Libres para grabacion y proceso de Audio Hi-Fi.
-*Open Architecture, Hi-Fi Audio, Grabación, C.L.I.*
+# Sistemas Libres para grabacion y proceso de Audio HiFi
+*Open Systems, HiFi Audio, Grabación, C.L.I.*
 
-## Cantidad y tipo de encuentros.
+## Cantidad y tipo de encuentros
+  
+Encuentros mensuales en lab de construcción / capacitación
 
-  Multiples encuentros con diseñadores de harwdare especifico para el registro y emision de  audio Hi-Fi.   
+### Descripción de los encuentros
+  
+Pruebas del hardware en diferentes placas (RaspPi y ODROID) y Sistemas Operativos (ArchARM / Raspbian). 
 
-### Descripción de los encuentros.
+Pruebas de diferentes aplicaciones de software para Linux y desarrollo de utilidades específicas.
 
-  Pruebas del hardware en diferentes placas y Sistemas Operativos. 
-
-  Pruebas de arquitectura de software para Linux, en la plataforma ARM y
-  desarrollo de utilidades específicas.
-
-## Propuesta de actividades creativas.
+## Propuesta de actividades creativas
 
 The first thing to accomplish it's consistent recording with no more
 than command line utilities throw the terminal (without window o desktop
@@ -25,11 +24,11 @@ We are considering the use of the Raspberry Pi board too, but i'm going
 to also try another board (ODROID) and another O.S. (ArchLinuxARM) in
 both boards.
 
-## Referentes
+## Proyectos similares
 
 * [RaspPi como Media Center](http://www.audiophonics.fr/fr/appareils-hifi-dac/audiophonics-raspdac-lecteur-reseau-raspberry-pi-20-dac-sabre-p-10369.html)
 
-* [Visualizador Grafico de ](https://www.youtube.com/watch?v=MuolDlA4yuA)
+* [Visualizador gráfico de espectro](https://www.youtube.com/watch?v=MuolDlA4yuA)
 
 * [](https://www.youtube.com/watch?v=4hggegvjPjg)
 
