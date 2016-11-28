@@ -1,4 +1,4 @@
-# Sistemas Libres para grabacion y proceso de Audio HiFi
+# Sistemas Libres para grabación y proceso de Audio HiFi
 *Open Systems, HiFi Audio, Grabación, C.L.I.*
 
 ## Cantidad y tipo de encuentros
@@ -7,9 +7,9 @@ Encuentros mensuales en lab de construcción / capacitación
 
 ### Descripción de los encuentros
   
-Pruebas del hardware en diferentes placas (RaspPi y ODROID) y Sistemas Operativos (ArchARM / Raspbian). 
-
-Pruebas de diferentes aplicaciones de software para Linux y desarrollo de utilidades específicas.
+Pruebas de hardware (ODROID) y Sistemas Operativos (ArchARM). 
+Pruebas de diferentes aplicaciones de software para Linux 
+y desarrollo de utilidades específicas.
 
 ## Propuesta de actividades creativas
 
