@@ -28,18 +28,20 @@ both boards.
 
 * [RaspPi como Media Center](http://www.audiophonics.fr/fr/appareils-hifi-dac/audiophonics-raspdac-lecteur-reseau-raspberry-pi-20-dac-sabre-p-10369.html)
 
+* [RuneAudio on Raspberry Pi and HifiBerry Digi+ PART 1](https://youtu.be/DmeUxk14vCc)
+
 * [Visualizador gráfico de espectro](https://www.youtube.com/watch?v=MuolDlA4yuA)
 
-* [](https://www.youtube.com/watch?v=4hggegvjPjg)
+* [Visualizador gráfico de espectro](https://www.youtube.com/watch?v=MuolDlA4yuA) 
+basado en  [cava - Console-based Audio Visualizer for Alsa ](https://www.youtube.com/watch?v=4hggegvjPjg)
+por: [fabel froh](https://www.youtube.com/channel/UCdGTG_ZI5DhvJL0OqeMGVTQ)
 
-* [](https://www.youtube.com/channel/UCdGTG_ZI5DhvJL0OqeMGVTQ)
+* [Raspberry Pi as a simple MIDI Synth](https://www.youtube.com/watch?v=9SpiGhUE1q0)
 
-* [](https://www.youtube.com/watch?v=bLcW70tcBX8)
+* [DIY Raspberry Pi 2 Synthesize](https://www.youtube.com/watch?v=HRfP_w4xWms)
 
-* [](https://www.youtube.com/watch?v=PBU245L8hfg)
+* [Raspberry Pi + Audiophonics DAC + Volumio](https://www.youtube.com/watch?v=xip1snTIYWs)
 
-* [](https://www.youtube.com/watch?v=9SpiGhUE1q0)
+* [Raspberry Pi Guitar Effect Box](https://www.youtube.com/watch?v=bLcW70tcBX8)
 
-* [](https://www.youtube.com/watch?v=xip1snTIYWs)
-
-* [](https://youtu.be/DmeUxk14vCc)
+* [Arduino Guitar Pedal - Crazy Effects](https://www.youtube.com/watch?v=PBU245L8hfg)
