@@ -52,6 +52,8 @@ catálogo está programado en Perl.
 
 ## Instalación
 
+TODO
+
 ## Backend
 
 Atamishky requiere un servidor web que soporte php (versión 5 y más modernas) y la extensión XSL.
@@ -149,9 +151,21 @@ El campo soporte solo tiene sentido (por el momento) si el tipo de entrada es ig
 
 ## ¿Cómo realizo la conversión del catálogo para ser levantado por Atamishky?
 
+En términos generales, la tarea es convertir el archivo CSV en XML.
+
+Mediante **atamishkyCSV2XML.pl** la tarea es simple:
+
+```
+./atamishkyCSV2XML.pl -i catalogo.csv -o catalogo.xml
+```
+
 ## ¿Cómo realizo los hashs de verificación de los archivos xslt?
 
+En la carpeta lib se encuentra el scro MD5SEC.sh que se encarga de la tarea de generar una versión actualizada de los hashes de verificación.
+
 ## ¿Cómo cambio la contraseña de los préstamos?
+
+
 
 -----------------------------------------------------------------------
 
