@@ -13,11 +13,13 @@ y desarrollo de utilidades específicas.
 
 ## Propuesta de actividades creativas
 
-The first thing to accomplish it's consistent recording with no more
-than command line utilities throw the terminal (without window o desktop
-manager).
+* The first thing to accomplish it's consistent recording with no more
+than command line utilities throw the terminal (without window o 
+desktop manager).
 
-A second stage will be to add visual monitoring and extra processes,
+* Second stage would be to bundle recording software binaries to thee Kernel 
+
+* A final step will be to add visual monitoring and extra processes,
 control and audio output.
 
 We are considering the use of the Raspberry Pi board too, but i'm going
