@@ -5,7 +5,7 @@
 
 Digamos que tenemos las siguientes lineas de de texto
 
-'''code 
+```code
 dr-------- 20906
 drwx------ 20913
 drwxr-x--- 20704
@@ -14,7 +14,7 @@ lrwxrwxrwx 20606
 -------r-- 21004
 -rw-r----- 20716
 -rwxrwx--- 21102
-'''
+```
 
 Y que por alguna razon queremos mover el numero de 5 digitos, que está al final de la
 linea, imediatato al ultimo carater "r" en la misma linea y queremos repetir esto
@@ -23,7 +23,7 @@ haber multiples "r" en cada linea.
 
 Este es el resultado de lo que queremos
 
-'''code
+```code
 dr20906--------
 dr20913wx------
 drwxr20704-x---
@@ -32,7 +32,7 @@ lrwxrwxr20606wx
 -------r21004--
 -rw-r20716-----
 -rwxr21102wx---
-'''
+```
 
 Yes, this can be done via :substitute with back references
 (Try: %s/\v(.+r)(.+)\s(\d{5})/\1\3\2/), but that can be intimidating for some.
