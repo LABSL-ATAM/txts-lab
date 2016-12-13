@@ -45,34 +45,26 @@ Here's how:
 Place the cursor on the first character of the first line of the file.
 Hit the following keys to record the repeat-sequence:
 
-	qqq : Start and immediately end recording for register q -- this essentially
-empties register q
+* qqq : Start and immediately end recording for register q -- this essentially empties register q
 
-	qq : Start recording actions into register q
+* qq : Start recording actions into register q
 
-	f2 : Find the "2" character to the right on this line (cursor will jump
-there)
+* f2 : Find the "2" character to the right on this line (cursor will jump there)
+* D : Delete and yank the 5-digit number into memory (rest of line)
+* Fr : Find the "r" character to the left on this line (cursor will jump to the last "r")
 
-	D : Delete and yank the 5-digit number into memory (rest of
-line)
+* p : Paste the number that was yanked earlier after the "r" character
 
-	Fr : Find the "r" character to the left on this line (cursor will jump to the
-last "r")
+* Enter : Move the cursor to the first non-whitespace character of the next line
 
-	p : Paste the number that was yanked earlier after the "r"
-character2
-
-	Enter : Move the cursor to the first non-whitespace character of the next
-line
-
-	@q : Execute the contents of register q (itself!), which is for now, empty,
+* @q : Execute the contents of register q (itself!), which is for now, empty,
 so nothing will happen. The trick here is that when we run it again with "@q"
 after you have ended the recording, it will call itself after processing each
 line! This recursive loop will process all the subsequent lines in that file,
 until it hits the end-of-file. This is the essence that makes complex repeats
 so flexible and powerful.
 
-	q : End the recording
+* q: End the recording
 
 Hit @q to apply the same manipulation to the rest of the file from the 2nd
 line onwards. Enjoy the art of flying cursor and automatic text manipulation on
